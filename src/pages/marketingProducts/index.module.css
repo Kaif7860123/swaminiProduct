@@ -1,0 +1,99 @@
+.marketingproductCont{
+    background-color: white;
+    color: black;
+}
+.products{
+    padding: 100px 100px 30px 100px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 15px;
+}
+  
+.product1{
+    border: 1px solid rgb(230, 223, 223);
+    padding: 75px 35px 60px 35px;
+
+}
+.img{
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.card{
+    position: relative;
+}
+.card:hover>.product1>.productImg>.img{
+    
+    transform: scale(1.09);
+    
+     
+    
+}
+.productDetail{
+    border-top: ipx solid white;
+    border: 1px solid rgb(230, 223, 223);
+    /* margin: 20px 0px; */
+    color: black;
+    padding: 30px 30px;
+}
+.like{
+    font-size: 22px;
+    color: rgb(43, 41, 41);
+    font-weight: 600;
+    transition: 0.3s;
+    transition-timing-function: ease-in;
+}
+.like:hover{
+    color: var( --clr-theme-secondary);
+}
+.price{
+    font-size: 18px;
+    color: var(--clr-theme-primary);
+    font-weight: 600;
+    margin-top: 15px ;
+}
+.shoppingIcon{
+    border-radius: 50%;
+    padding: 15px;
+    background-color: var(--clr-theme-primary);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.iconCont{
+    position: absolute;
+    bottom: 163px;
+    left: 110px;
+    visibility: hidden;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.card:hover>.iconCont{
+    visibility: visible;
+}
+ .icons{
+    position: relative;
+ }
+.view{
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(46, 44, 44);
+    border: 1px solid gray;
+    border-radius: 6px;
+    position: absolute;
+    width: 100px;
+text-align: center;
+padding: 6px 0px;
+left: -20px;
+bottom: 45px;
+visibility: hidden;
+transition: 0.3s;
+transition-timing-function: ease-in-out;
+cursor: pointer;
+
+
+}
+.icons:hover>.view{
+visibility: visible;
+}

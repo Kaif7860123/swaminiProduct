@@ -1,0 +1,26 @@
+.treesymbolcontainer{
+    display: flex;
+    padding: 0px 200px;
+    align-items: center;
+    justify-content: space-between;
+
+    & .treesymbol{
+        text-align: center;
+
+        & span{
+            display: block;
+            text-align: center;
+            margin-top: 5px;
+        }
+        & .imglog{
+            margin: 0 auto;
+            height: 42px;
+            width: 42px;
+            text-align: center;
+            & img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}

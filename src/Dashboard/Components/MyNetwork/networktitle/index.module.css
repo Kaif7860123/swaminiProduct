@@ -1,0 +1,18 @@
+.direcmembercart2{
+    background: #fff;
+    -webkit-box-shadow: 0 1px 6px 1px rgba(69, 65, 78, 0.1);
+    -moz-box-shadow: 0 1px 6px 1px rgba(69, 65, 78, 0.1);
+    box-shadow: 0 1px 6px 1px rgba(69, 65, 78, 0.1);
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+
+    & h2{
+
+        padding: 1rem;
+        background: linear-gradient(270deg, #47e69b, #0b8c62);
+            color: #fff;
+            font-size: 14px;
+           text-transform: uppercase;
+            font-weight: normal;
+    }
+}

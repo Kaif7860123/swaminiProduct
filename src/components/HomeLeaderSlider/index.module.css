@@ -1,0 +1,10 @@
+.leaderpics{
+    text-align: center;
+    padding: 30px;
+    border: 1px solid rgb(36, 135, 114);
+    transition: all 0.3s 0s ease-out;
+}
+.leaderpics:hover{
+    border: 1px solid var(--clr-theme-grocery);
+
+}

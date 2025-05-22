@@ -1,0 +1,17 @@
+.locationicontainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 20px 0;
+    column-gap: 20px;
+
+    & span{
+        font-weight: 500;
+        letter-spacing: .5px;
+        text-shadow: 0 0 2px gray;
+        transition: 0.5s ease-in-out;
+    }
+    & span:hover{
+        color: var(--clr-theme-grocery);
+    }
+}

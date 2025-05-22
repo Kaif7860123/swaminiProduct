@@ -1,0 +1,74 @@
+.noniCont{
+    background-color: white;
+}
+.noniBodyCont{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 70px;
+    color: black;
+    padding:120px 170px 120px 120px;
+}
+.imgCont{
+margin-top: 55px;
+
+}
+.imgCont>img{
+width: 460px;
+height: 470px;
+}
+.healthBtn{
+    color: white;
+    background-color:var(--clr-theme-secondary);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.productName{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.text{
+    font-size: 18px;
+    font-weight:var(--bd-fw-medium);
+    color:var(--clr-text-body);
+    margin: 30px 0px 30px 0px;
+    line-height:1.6rem;
+    text-shadow: 1px 0px 1px rgba(230, 227, 227, 0.28) ;
+
+}
+.benefits{
+    font-size: 18px;
+    color: rgb(88, 87, 87);
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.list{
+    font-size: 18px;
+    font-weight:var(--bd-fw-medium);
+    color:var(--clr-text-body);
+    /* margin: 30px 0px 25px 0px; */
+    line-height:1.6rem;
+    text-shadow: 1px 0px 1px rgba(230, 227, 227, 0.28) ;
+}
+.dosageCont{
+    display: flex;
+    column-gap: 5px;
+}
+.dosage{
+    font-size: 18px;
+    color: rgb(88, 87, 87);
+    font-weight: 600;
+    margin:32px 0px;  
+}
+.takedosage{
+    font-size: 18px;
+    font-weight:var(--bd-fw-medium);
+    color:var(--clr-text-body);
+    margin: 30px 0px ;
+    line-height:1.6rem;
+    text-shadow: 1px 0px 1px rgba(230, 227, 227, 0.28) ;
+}

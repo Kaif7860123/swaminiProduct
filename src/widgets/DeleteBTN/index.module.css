@@ -1,0 +1,27 @@
+/* From Uiverse.io by absoluteSTrange */ 
+.deletebtn {
+    padding: 7px 18px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(252, 194, 21);
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: rgb(202, 153, 6) 0px 5px 0px 0px;
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .deletebtn:hover {
+    box-shadow: rgb(194, 143, 16) 0px 3px 0px 0px;
+  }
+  
+  .deletebtn:active {
+    background-color: rgb(255, 56, 86);
+    /*50, 168, 80*/
+    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+  }
+  

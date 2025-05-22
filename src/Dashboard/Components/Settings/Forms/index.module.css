@@ -1,0 +1,22 @@
+.chngepasswordformcontainer{
+    width: 50%;
+    margin: 50px auto;
+
+    & .passwordformcontainer{
+
+        & .tittlecontainer{
+            padding: 1rem;
+            background: linear-gradient(270deg, #47e69b, #0b8c62);
+            color: white;
+        }
+        & .passwordform{
+            background-color: white;
+            padding: 1rem;
+
+            & .loginbutton{
+                text-align: center;
+            }
+            
+        }
+    }
+}

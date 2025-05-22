@@ -1,0 +1,30 @@
+.productSection{
+    background-color: rgb(217, 243, 251);
+    padding: 50px 120px 50px 60px;
+    height: fit-content;
+    width: 70%;
+}
+.newlist{
+    font-size: 18px;
+    font-weight:var(--bd-fw-medium);
+    color:var(--clr-text-body);
+    line-height:2rem;
+    text-shadow: 1px 0px 1px rgba(230, 227, 227, 0.28) ;
+}
+ 
+ 
+.productImg{
+    width: 360px;
+    height: 380px;
+}
+.productDetails{
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.heading{
+    font-size: 18px;
+    color: rgb(43, 41, 41);
+    font-weight: 600;
+}

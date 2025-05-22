@@ -1,0 +1,9 @@
+.viewPinSection{
+    background-color: white;
+    & h1{
+        text-align: center;
+        margin: 30px 0px 0;
+    }
+}
+
+ 

@@ -1,0 +1,22 @@
+.aboutCont{
+    background-color: white;
+}
+.aboutBody{
+    padding: 100px 100px 30px 100px;
+   
+}
+.text{
+    font-size: 18px;
+    font-weight:var(--bd-fw-medium);
+    color:var(--clr-text-body);
+    margin: 15px 0px 20px 0px;
+    line-height:1.6rem;
+    text-shadow: 1px 0px 1px rgba(230, 227, 227, 0.28) ;
+
+}
+.swamini{
+    color: rgb(31, 30, 30);
+    font-size: 30px;
+    font-weight: 600;
+}
+ 

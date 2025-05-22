@@ -1,0 +1,74 @@
+.headerProfile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.backprofile{
+    padding: 10px 18px;
+    border: 1px solid rgb(175, 170, 170);
+    border-radius: 5px;
+    background-color: rgb(131, 127, 127);
+    font-size: 14px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
+}
+.backprofile:hover{
+    box-shadow: none;
+}
+.placementCont{
+    background-color: white;
+    margin: 20px 0px 25px 0px;
+}
+.content{
+    background: linear-gradient(270deg, #47e69b, #0b8c62);
+    padding: 14px 20px;
+    color: white;
+ 
+ }
+ .placementDetails{
+    display: flex;
+    padding: 10px 20px 20px 20px;
+    column-gap: 300px;
+
+ }
+ .detail1{
+    & p{
+        font-size: 16px;
+        color: rgb(102, 100, 100);
+        line-height: 1.9rem;
+    }
+ }
+ .personalInfoCont{
+    background-color: white;
+    padding-bottom: 25px;
+}
+.pesonalInfos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 12px 20px;
+    gap: 15px;
+ }
+  
+ .inputCont{
+    & p{
+        font-size: 16px;
+        color: rgb(102, 100, 100);
+    }
+    & span{
+        color: red;
+    }
+    
+ }
+  .inputs{
+    width: 100%;
+    padding: 9px 10px;
+    color: rgb(136, 128, 128);
+    font-size: 17px;
+    outline: none;
+    border-radius: 4px;
+    margin: 10px 0px;
+    border: 1px solid rgb(177, 172, 172);
+}
+ 
+ 

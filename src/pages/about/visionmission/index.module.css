@@ -1,0 +1,44 @@
+.visionMissionCont{
+    background-color: white;
+}
+.visionCont{
+    padding: 100px 100px 30px 100px;
+   
+}
+.imgAndcontent{
+    display: flex;
+    justify-content: space-between;
+    /* color: black; */
+    column-gap: 60px;
+}
+.welcome{
+    
+    color: #B18B5E;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.swamini{
+    color: rgb(31, 30, 30);
+    font-size: 30px;
+    font-weight: 600;
+}
+ 
+     
+.text{
+    font-size: var(--bd-fs-p);
+    font-weight:var(--bd-fw-medium);
+    color:var(--clr-text-body);
+    margin: 15px 0px 20px 0px;
+    line-height:1.6rem;
+    text-shadow: 1px 0px 1px rgba(51, 50, 50, 0.28) ;
+}
+.moringa{
+    width: 550px;
+    height: 600px;
+}
+.farming{
+    width: 550px;
+    height: 370px;
+    margin-bottom: 25px;
+}

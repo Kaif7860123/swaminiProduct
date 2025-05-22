@@ -1,0 +1,41 @@
+.homeclientreview{
+    padding: 40px;
+    background-color: white;
+
+    & .topreview{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & .topleftreveiw{
+
+            & .starcontainer{
+                display: flex;
+                align-items: center;
+                column-gap: 5px;
+                margin: 10px 0;
+            }
+            & .name{
+                font-size: 22px;
+                color: var(--fs-heading);
+                margin: 10px 0;
+            }
+            & .titele{
+                font-size: 16px;
+                color: var(--clr);
+color: var(--clr-text-body);
+
+            }
+
+
+        }
+    }
+    & .bottomreview{
+        font-size: var(--bd-fs-p);
+font-weight: var(--bd-fw-normal);
+color: var(--clr-text-body);
+margin-bottom: 15px;
+line-height: 26px;
+    }
+}

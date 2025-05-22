@@ -1,0 +1,31 @@
+.paginationcontainer > .pagination{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+     
+    & i{
+        display: inline-flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+        color: rgb(51, 50, 50);
+        font-weight: bold;
+        cursor: pointer;
+    }
+    & span{
+        font-size: 16px;
+        font-weight: 500;
+        color: rgb(88, 85, 85);
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+    & span:last-child{
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(158, 154, 154);
+    }
+}
+.paginationcontainer{
+    margin: 0px 0 20px 0;
+}

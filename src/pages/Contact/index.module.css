@@ -1,0 +1,84 @@
+.contactcontainer{
+    padding: 50px 100px 70px;
+
+   & .contactcartcontainer{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-bottom: 40px;
+        column-gap: 20px;
+
+        
+    }
+}
+.contactformandmapcontainer{
+    padding: 0px 100px 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.mapcontainer{
+    width: 50%;
+}
+.contactformcontainer{
+    background-color: rgb(205, 205, 205);
+    padding: 40px;
+    box-shadow:0 0 5px 0  rgba(0, 0, 0, 0.563);
+    width: 50%;
+   
+
+    & .inputs{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 20px;
+
+
+        & input{
+            width: 100%;
+            outline: none;
+            border: none;
+            margin-bottom: 20px ;
+            padding: 10px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+        }
+    }
+   & textarea{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+   }
+    & input{
+        margin-bottom: 20px ;
+        outline: none;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        background-color: white;
+    }
+    & .btncont{
+        margin-top: 20px;
+        & button{
+            padding: 15px 20px;
+            font-size: 16px;
+            color: white;
+            border-radius: 5px;
+            background-color: black;
+            font-weight: 600;
+            transition: 0.25s linear;
+        }
+        & button:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+}

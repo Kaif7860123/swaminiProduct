@@ -1,0 +1,37 @@
+.contaictcards{
+    text-align: center;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 black;
+    background: rgba(3, 175, 229, 0.07);
+
+    & i{
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+        background-color: var(--clr-theme-primary);
+    }
+
+    & span{
+        font-size: 16px;
+        display: inline-block;
+        width: 100%;
+        color: var(--fs-heading);
+        font-size: 20px;
+        font-weight: 600;
+        margin: 15px 0;
+
+    }
+
+    & p{
+        font-size: var(--bd-fs-p);
+        font-weight: var(--bd-fw-normal);
+        color: var(--clr-text-body);
+        line-height: 26px;
+        
+    }
+}

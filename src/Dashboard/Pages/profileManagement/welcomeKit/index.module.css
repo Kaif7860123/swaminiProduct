@@ -1,0 +1,129 @@
+.heading{
+    font-size: 24px;
+    color: rgb(61, 58, 58);
+    margin-bottom: 22px;
+}
+.certificateImgCont{
+margin: 12px 0px;
+}
+.certificateIMg{
+    width: 88%;
+    height: 700px;
+    background-image: url("../../../assets/welcomeKit/certificate.png");
+    background-size: cover;
+    border: 2px solid rgb(247, 101, 4);
+}
+.begining{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+}
+.logoImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+.contents{
+    text-align: center;
+}
+.membership{
+    font-size: 40px;
+    color: rgb(29, 27, 27);
+    margin: 20px 0px;
+}
+.presented{
+    font-size: 25px;
+    color: rgb(20, 20, 20);
+    margin: 10px 0px; 
+}
+.name{
+    font-size: 42px;
+    margin: 15px 0px;
+}
+.text{
+    line-height: 1.9rem;
+
+}
+.personalDetails{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    & p{
+        line-height: 1.9rem;
+    }
+}
+.cardCont{
+    margin: 70px 0px;
+}
+.cardImg{
+    background-image: url("../../../assets/welcomeKit/cardimg.avif");
+    background-size: cover;
+    width: 380px;
+    border: 1px solid rgba(255, 0, 0, 0.864);
+    height: 470px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+.logoImg2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+.userImg{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.user{
+    width: 100px;
+    height: 100px;
+    /* margin: 0% auto; */
+}
+.content{
+    text-align: center;
+    margin-top: 10px;
+    & p{
+        line-height: 1.9rem;
+        color: black;
+        font-size: 17px;
+         
+    }
+}
+.userSection{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 15px;
+}
+.userDetailText{
+    line-height: 2.0rem;
+    color: gray;
+    font-size: 15px;
+}
+.member{
+    color: rgb(27, 26, 26);
+    font-size: 18px;
+}
+.userName{
+    color: rgb(36, 34, 34);
+    font-size: 18px;
+    margin: 20px 0px;
+}
+.contentSection{
+    padding: 10px 20px ;
+}
+.email{
+    color: rgb(58, 56, 56);
+    margin: 10px 0px 15px 0px;
+}
+.link{
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+}
+ 

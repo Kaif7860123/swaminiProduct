@@ -1,0 +1,19 @@
+import React from "react";
+import "./index.css";
+const Loader = () => {
+  return (
+    <>
+    <div className="loadercontaier">
+
+      <div className="loader">
+        <div className="load-inner load-one"></div>
+        <div className="load-inner load-two"></div>
+        <div className="load-inner load-three"></div>
+        <span className="text">Loading...</span>
+      </div>
+    </div>
+    </>
+  );
+};
+
+export default Loader;

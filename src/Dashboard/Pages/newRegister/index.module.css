@@ -1,0 +1,51 @@
+.transactionPassword{
+    background-color: white;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.content{
+    background: linear-gradient(270deg, #47e69b, #0b8c62);
+    padding: 14px 20px;
+    color: white;
+ 
+ }
+ .text{
+    
+    color: rgb(70, 67, 67);
+    font-size: 15px;
+    margin: 15px 0px;
+ }
+ .star{
+    color: red;
+    
+ }
+ .passwordCont{
+    display: flex;
+    justify-content:center;
+    column-gap: 80px;
+ }
+ .inputField{
+    width: 350px;
+    padding: 10px 12px ;
+    font-size: 16px;
+    border: 1px solid rgb(214, 210, 210);
+    outline: none;
+ }
+ .proceed{
+     
+    background-color: #0ab1e8;
+     margin-top: 50px;
+  padding: 10px 23px;
+  border-radius: 3px;
+  font-size: 14px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   cursor: pointer;
+   transition: 0.2s;
+   transition-timing-function: ease-in;
+   height: fit-content;
+  
+ }
+ .proceed:hover{
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+ }

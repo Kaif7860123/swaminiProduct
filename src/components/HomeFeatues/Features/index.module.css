@@ -1,0 +1,34 @@
+.homefeatures{
+    display: flex;
+    align-items: center;
+    margin: 15px 70px;
+    column-gap: 10px;
+    border: 1px solid rgba(85, 85, 85, 0.2);
+    border-radius: 30px;
+    padding: 0 12px;
+    height: 60px;
+    
+
+    & p{
+        font-size: 18px;
+        font-weight: 600;
+        padding-inline-end: 50px;
+        text-align: left;
+        background-color: var(--clr-common-white);
+        color: var(--fs-heading);
+        letter-spacing: 1px;
+    }
+    & span{
+        font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+    border-radius: 50%;
+    min-width: 36px;
+    background-color: rgba(3, 175, 229, 0.2);
+    color: var(--clr-theme-primary);
+    font-weight: 500;
+    }
+}

@@ -1,0 +1,38 @@
+.photoscontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    padding: 50px 100px 70px;
+
+    & .imgandcontentcontainer{
+        margin-bottom: 20px;
+        padding: 30px;
+        background-color: var(--clr-bg-1);
+
+        & span{
+            margin-top: 10px;
+            display: inline-block;
+            color: var(--fs-heading);
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        & .imgcontainer{
+            width: 100%;
+            overflow: hidden;
+
+        }
+        & .imgcontainer>img{
+            transition: 0.25s linear;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    & .imgandcontentcontainer:hover{
+        & .imgcontainer>img{
+            transform: scale(1.05);
+        }
+    }
+}

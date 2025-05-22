@@ -1,0 +1,50 @@
+.dashboardheadercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0;
+    background: #FFF;
+    padding: 0.6rem 30px;
+    position: sticky;
+    top: 0;
+    margin-left: auto;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    box-shadow: 5px 7px 11px #645d5d1a, 0 0 transparent, 0 0 transparent;
+    border-bottom: 8px #22aa71 solid;
+
+
+    
+
+    & .leftdashboardcontainer{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+
+       
+    }
+
+    & .rightdashboardheadercontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+
+        & span{
+            color: var(--clr-common-black);
+            font-size: 14px;
+        }
+
+        & .imgcontainer2{
+            width: 50px;
+
+            & img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+}

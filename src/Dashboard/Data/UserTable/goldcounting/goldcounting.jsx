@@ -1,0 +1,42 @@
+export const goldcountingth = [
+    {
+        id:1,
+        th:"Sr.No."
+    },
+    {
+        id:2,
+        th:"RBV"
+    },
+    {
+        id:3,
+        th:"LBV"
+    },
+    {
+        id:4,
+        th:"RCarry"
+    },
+    {
+        id:5,
+        th:"LCarry"
+    },
+    {
+        id:6,
+        th:"Matching"
+    },
+    {
+        id:7,
+        th:"Date"
+    },
+    {
+        id:8,
+        th:"From Member ID"
+    },
+    {
+        id:9,
+        th:"Product"
+    },
+    {
+        id:10,
+        th:"Description"
+    },
+]

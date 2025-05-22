@@ -1,0 +1,28 @@
+.icon{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    color: var(--clr-common-white);
+    background-color: var(--clr-theme-grocery);
+    border: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon1{
+    height: 45px;
+    width: 55px;
+
+    border-radius: 50%;
+    color: var(--clr-common-white);
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 2px 0 lightgray;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon1:hover{
+    background-color: var(--clr-theme-grocery);
+
+}

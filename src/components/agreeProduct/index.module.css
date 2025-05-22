@@ -1,0 +1,73 @@
+.quabaCont{
+    background-color: white;
+}
+.noniBodyCont{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 70px;
+    color: black;
+    padding:120px 170px 0px 120px;
+}
+.imgCont{
+margin-top: 170px;
+
+}
+.imgCont>img{
+width: 500px;
+height: 490px;
+}
+.healthBtn{
+    color: white;
+    background-color:var(--clr-theme-secondary);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.productName{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.text{
+    font-size: 18px;
+    font-weight:var(--bd-fw-medium);
+    color:var(--clr-text-body);
+    margin: 30px 0px 30px 0px;
+    line-height:1.8rem;
+    text-shadow: 1px 0px 1px rgba(230, 227, 227, 0.28) ;
+
+}
+ 
+.list{
+    font-size: 18px;
+    font-weight:var(--bd-fw-medium);
+    color:var(--clr-text-body);
+    line-height:1.6rem;
+    text-shadow: 1px 0px 1px rgba(230, 227, 227, 0.28) ;
+}
+.quaba{
+    font-size: 19px;
+    color: rgb(92, 89, 89);
+    font-weight: 600;
+    margin: 8px 0px;
+}
+.quaba1{
+    font-size: 19px;
+    color: rgb(92, 89, 89);
+    font-weight: 600;
+    margin: 40px 0px;
+}
+
+.newlist{
+    display: inline;
+    font-size: 18px;
+    font-weight:var(--bd-fw-medium);
+    color:var(--clr-text-body);
+    line-height:1.6rem;
+    text-shadow: 1px 0px 1px rgba(230, 227, 227, 0.28) ;
+}
+ 
+ 

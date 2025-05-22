@@ -1,0 +1,9 @@
+.inputsform{
+    margin-bottom: 20px;
+    & label{
+        display: inline-block;
+        color: rgba(0, 0, 0, 0.736);
+        font-weight: 500;
+        margin-bottom: 10px ;
+    }
+}

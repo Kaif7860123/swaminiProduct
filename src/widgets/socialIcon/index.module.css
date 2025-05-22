@@ -1,0 +1,32 @@
+.socialicon{
+    display: inline-flex;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: none;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.socialicon:hover{
+    background-color: var(--clr-theme-grocery);
+    color: white;
+    animation: rotate 0.5s ease-in-out 1;
+    box-shadow: 0 0 5px blue,
+
+    0 0 10px blue, 0 0 30px blue;
+   
+    }
+
+@keyframes rotate {
+
+
+to{
+    transform: rotate(360deg);
+
+}
+
+}

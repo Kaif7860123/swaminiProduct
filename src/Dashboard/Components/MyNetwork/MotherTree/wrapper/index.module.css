@@ -1,0 +1,9 @@
+.hvwraper {
+
+    display: flex;
+ }
+.hvwraper .hvitem {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+     }

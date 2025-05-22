@@ -1,0 +1,22 @@
+.ourmissioncart{
+    padding: 40px 40px;
+
+    & span{
+        margin-bottom: 20px;
+        font-size: 26px;
+        display: inline-block;
+        color: var(--fs-heading);
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    & p{
+        font-size: var(--bd-fs-p);
+            font-weight:var(--bd-fw-medium);
+            text-shadow: 0.5px 0.5px 0px rgba(51, 50, 50, 0.503);
+            color: var(--clr-text-body);
+            margin-bottom: 15px;
+            letter-spacing: 0.5px;
+            line-height: 26px;
+    }
+}

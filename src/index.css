@@ -1,0 +1,58 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+  --bd-ff-body: 'Sora', sans-serif;
+  --bd-ff-fontawesome: "Font Awesome 6 Pro";
+  --clr-common-white: #fff;
+  --clr-common-black: #000;
+  --clr-common-placeholder: #808080;
+  --clr-common-heading: #191919;
+  --clr-common-body-text: #555555;
+  --clr-common-selection: #262626;
+  --breadcrumb-color:#26407b;
+  --clr-common-body: #fff;
+  --clr-theme-primary: #02afe5;
+  --clr-theme-secondary: #eb753b;
+  --clr-theme-grocery: #80b501;
+  --clr-text-primary: #fff;
+  --clr-text-secondary: hsl(0, 0%, 9%);
+  --clr-text-body: #555555;
+  --clr-text-2: #222222d2;
+  --clr-text-3: #9f9f9f;
+  --font-p:550;
+  --bs-green:#248872 ;
+  --fs-heading:rgba(0, 0, 0, 0.854);
+  --clr-text-4: #808080;
+  --clr-bg-1: #f0f0f0;
+  --clr-bg-2: #191919;
+  --clr-bg-3: #edf9fd;
+  --clr-bg-4: #f2fbfe;
+  --clr-bg-5: #f7f7f7;
+  --clr-border-1: #2f2f2f;
+  --clr-border-2: rgba(85, 85, 85, 0.2);
+  --clr-gradient-1: linear-gradient(96.81deg, #ff589b 0%, #ffc107 100%);
+  --bd-fw-normal: normal;
+  --bd-fw-thin: 100;
+  --bd-fw-elight: 200;
+  --bd-fw-light: 300;
+  --bd-fw-regular: 400;
+  --bd-fw-medium: 500;
+  --bd-fw-sbold: 600;
+  --bd-fw-bold: 700;
+  --bd-fw-ebold: 800;
+  --bd-fw-black: 900;
+  --bd-fs-body: 16px;
+  --bd-fs-p: 16px;
+  --bd-fs-h1: 80px;
+  --bd-fs-h2: 50px;
+  --bd-fs-h3: 28px;
+  --bd-fs-h4: 24px;
+  --bd-fs-h5: 20px;
+  --bd-fs-h6: 16px;
+}
+body{
+  font-family: var(--bd-ff-body);
+  color: var(--clr-common-body);
+}

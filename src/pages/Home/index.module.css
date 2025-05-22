@@ -1,0 +1,10 @@
+.homeleaderslider{
+    padding: 50px 100px;
+}
+.bannerbottompic{
+    padding: 50px 100px;
+background-color: var(--clr-common-white);
+    & img{
+        width: 100%;
+    }
+}

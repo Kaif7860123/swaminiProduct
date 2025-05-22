@@ -1,0 +1,25 @@
+.mypinselsectform{
+    display: grid;
+    align-items:last baseline ;
+    column-gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+
+    & label{
+        color: rgba(0, 0, 0, 0.622);
+    }
+    
+    & select{
+                 margin-top: 10px;
+                 min-width: 150px;
+                    padding: .5rem .75rem;
+                    font-size: 15px;
+                    line-height: 1.5;
+                    outline: none;
+                    color: #495057;
+                    background-color: #fff;
+                    background-clip: padding-box;
+                    border: 1px solid #ced4da;
+                    border-radius: .25rem;
+                   
+    }
+}

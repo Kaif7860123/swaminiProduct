@@ -1,0 +1,19 @@
+.directmembertititlecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background: linear-gradient(270deg, #47e69b, #0b8c62);
+
+    & .leftdirectmember > h2{
+        color: #fff;
+        font-size: 14px;
+       text-transform: uppercase;
+        font-weight: normal;
+    }
+    & .rightdirectmember{
+        display: flex;
+        column-gap: 5px;
+        align-items: center;
+    }
+}
