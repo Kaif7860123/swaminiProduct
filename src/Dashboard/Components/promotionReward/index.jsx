@@ -1,7 +1,8 @@
 import React from 'react'
 import AdminTitltSection from '../AdminTitleSection'
 import Tables from '../Tables'
-import  userpromotionReward  from '../../data/UserTable/promotionReward'
+// import  userpromotionReward  from '../../data/UserTable/PromotionReward'
+import { userpromotionReward } from '../../Data/UserTable/PromotionReward'
  import styles from './index.module.css'
 const PromotionReward = () => {
   return (
