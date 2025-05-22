@@ -1,8 +1,9 @@
 import React from 'react'
 import AdminTitltSection from '../AdminTitleSection'
 import Tables from '../Tables'
-import { incomeHistorydata } from '../../data/UserTable/incomehistory'
+// import { incomeHistorydata } from '../../data/UserTable/incomehistory'
  import styles from './index.module.css'
+import { incomeHistorydata } from '../../Data/UserTable/incomehistory'
 const IncomeHistory = () => {
   return (
     <>
