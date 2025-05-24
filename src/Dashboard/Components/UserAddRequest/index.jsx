@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles from './index.module.css'
-import { useraddrequestth } from '../../data/UserTable/useraddrequestth'
+// import { useraddrequestth } from '../../data/UserTable/useraddrequestth'
 import qrcode from '../../assets/qrcode.webp'
 import AdminTitltSection from '../AdminTitleSection'
 import Tables from '../Tables'
@@ -8,6 +8,7 @@ import UploadFile from '../../../widgets/UiverseFile'
 import { useDispatch, useSelector } from 'react-redux'
 import { userdataActions } from '../../../Redux/Slices'
 import { useCookies } from 'react-cookie'
+import { useraddrequestth } from '../../Data/UserTable/useraddrequestth'
 const UserAddRequest = () => {
     const [userid,setuserid]=useState('')
     const [ammount,setammount]=useState('')
