@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+ import  React,{ useEffect, useState } from "react";
 import styles from "./index.module.css";
-import { detailData } from "../../Data/userSetailData";
-import { bankDetail } from "../../Data/bakDetailData";
+ 
 function BankDetail() {
   const [bankdetails,setbankdetails] = useState([{bankName:"",accountNumber:"",accountType:"",branch:"",panNumber:"",ifscCode:""}]);
   useEffect(()=>{
