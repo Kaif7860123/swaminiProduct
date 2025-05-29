@@ -4,7 +4,7 @@ import BreadCrumb from '../../../components/breadCrumb'
 import Swamini from '../../../components/breadCrumb/aboutSwamini'
 import vision from "../../../assets/about/vision.png";
 import mission from "../../../assets/about/mission.png";
-import success from "../../../assets/about/succes.png";
+import success from "../../../assets/about/Succes.png";
 import happy from "../../../assets/about/happy.jpg";
 function VisionMission() {
   return (
